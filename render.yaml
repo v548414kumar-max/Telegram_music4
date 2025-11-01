@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: Telegram_music4
+    env: python
+    startCommand: python music-bot.py
